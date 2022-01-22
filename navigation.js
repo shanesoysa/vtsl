@@ -21,8 +21,16 @@ document.write(`
                 </li>
                 <li><a href="#">TOURS</a>
                     <ul class="nav-dropdown">
-                        <li><a href="#">DAY TOURS</a></li>
-                        <li><a href="#">ROUND TOURS</a></li>
+                        <li><a href="tours.html">DAY TOURS</a></li>
+                        <li><a href="#">ROUND TOURS</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="roundtour1.html">TOUR 1</a></li>
+                                <li><a href="">TOUR 2</a></li>
+                                <li><a href="">TOUR 3</a></li>
+                                <li><a href="">TOUR 4</a></li>
+                                <li><a href="">TOUR 5</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="excursions.html">EXCURSIONS</a></li>
