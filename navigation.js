@@ -24,11 +24,15 @@ document.write(`
                         <li><a href="tours.html">DAY TOURS</a></li>
                         <li><a href="#">ROUND TOURS</a>
                             <ul class="nav-dropdown">
-                                <li><a href="roundtour1.html">TOUR 1</a></li>
-                                <li><a href="">TOUR 2</a></li>
-                                <li><a href="">TOUR 3</a></li>
-                                <li><a href="">TOUR 4</a></li>
-                                <li><a href="">TOUR 5</a></li>
+                                <li><a href="roundtour1.html">4 NIGHTS & 5 DAYS TOUR</a></li>
+                                <li><a href="roundtour2.html">5 NIGHTS & 6 DAYS TOUR</a></li>
+                                <li><a href="roundtour3.html">7 NIGHTS & 8 DAYS TOUR</a></li>
+                                <li><a href="roundtour4.html">8 NIGHTS & 9 DAYS TOUR</a></li>
+                                <li><a href="roundtour5.html">11 NIGHTS & 12 DAYS TOUR</a></li>
+                                <li><a href="roundtour6.html">13 NIGHTS & 14 DAYS TOUR</a></li>
+                                <li><a href="roundtour7.html">15 NIGHTS & 16 DAYS TOUR</a></li>
+                                <li><a href="roundtour8.html">28 NIGHTS & 29 DAYS TOUR</a></li>
+                                <li><a href="wildlifetour.html"> NATURE & WILDLIFE 7 NIGHTS & 8 DAYS TOUR</a></li>
                             </ul>
                         </li>
                     </ul>
