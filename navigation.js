@@ -43,52 +43,52 @@ document.write(`
                     <ul class="nav-dropdown">
                         <li><a href="des_popular_city.html">Popular City</a>
                             <ul class="nav-dropdown">
-                                <li><a href="des_popular_city.html">Colombo</a></li>
-                                <li><a href="des_popular_city.html">Kithulgala</a></li>
-                                <li><a href="des_popular_city.html">Negombo</a></li>
-                                <li><a href="des_popular_city.html">Galle</a></li>
-                                <li><a href="des_popular_city.html">Trincomalee</a></li>
-                                <li><a href="des_popular_city.html">Pinnawala</a></li>
-                                <li><a href="des_popular_city.html">Jaffna</a></li>
+                                <li><a href="des_popular_city.html#colombo">Colombo</a></li>
+                                <li><a href="des_popular_city.html#kitulgala">Kitulgala</a></li>
+                                <li><a href="des_popular_city.html#negombo">Negombo</a></li>
+                                <li><a href="des_popular_city.html#galle">Galle</a></li>
+                                <li><a href="des_popular_city.html#trincomalee">Trincomalee</a></li>
+                                <li><a href="des_popular_city.html#pinnawala">Pinnawala</a></li>
+                                <li><a href="des_popular_city.html#jaffna">Jaffna</a></li>
                             </ul>
                         </li>
                         <li><a href="des_cultural.html">Cultural</a>
                             <ul class="nav-dropdown">
-                                <li><a href="des_cultural.html">Anuradhapura</a></li>
-                                <li><a href="des_cultural.html">Mihinthale</a></li>
-                                <li><a href="des_cultural.html">Dambulla</a></li>
-                                <li><a href="des_cultural.html">Sigiriya</a></li>
-                                <li><a href="des_cultural.html">Kandy</a></li>
-                                <li><a href="des_cultural.html">Yapahuwa</a></li>
+                                <li><a href="des_cultural.html#anuradhapura">Anuradhapura</a></li>
+                                <li><a href="des_cultural.html#mihinthale">Mihinthale</a></li>
+                                <li><a href="des_cultural.html#dambulla">Dambulla</a></li>
+                                <li><a href="des_cultural.html#sigiriya">Sigiriya</a></li>
+                                <li><a href="des_cultural.html#kandy">Kandy</a></li>
+                                <li><a href="des_cultural.html#yapahuwa">Yapahuwa</a></li>
                             </ul>
                         </li>
                         <li><a href="des_hill_country.html">Hill Country</a>
                             <ul class="nav-dropdown">
-                                <li><a href="des_hill_country.html">Nuwara Eliya</a></li>
-                                <li><a href="des_hill_country.html">Hortan Plains</a></li>
-                                <li><a href="des_hill_country.html">Sri Padaya / Adam's Peak</a></li>
-                                <li><a href="des_hill_country.html">Knuckles</a></li>
+                                <li><a href="des_hill_country.html#nuwaraeliya">Nuwara Eliya</a></li>
+                                <li><a href="des_hill_country.html#hortonplains">Hortan Plains</a></li>
+                                <li><a href="des_hill_country.html#sripaada">Sri Padaya / Adam's Peak</a></li>
+                                <li><a href="des_hill_country.html#knuckles">Knuckles</a></li>
                             </ul>
                         </li>
                         <li><a href="des_wild_life.html">Wild Life</a>
                             <ul class="nav-dropdown">
-                                <li><a href="des_wild_life.html">Yala</a></li>
-                                <li><a href="des_wild_life.html">Singherajaya</a></li>
-                                <li><a href="des_wild_life.html">Udawalawa</a></li>
-                                <li><a href="des_wild_life.html">Minneriya</a></li>
-                                <li><a href="des_wild_life.html">Vilpaththu</a></li>
-                                <li><a href="des_wild_life.html">Kumana</a></li>
+                                <li><a href="des_wild_life.html#yala">Yala</a></li>
+                                <li><a href="des_wild_life.html#sinharaja">Singherajaya</a></li>
+                                <li><a href="des_wild_life.html#udawalawe">Udawalawa</a></li>
+                                <li><a href="des_wild_life.html#minneriya">Minneriya</a></li>
+                                <li><a href="des_wild_life.html#wilpatthu">Vilpaththu</a></li>
+                                <li><a href="des_wild_life.html#kumana">Kumana</a></li>
                             </ul>
                         </li>
                         <li><a href="des_beaches.html">Beaches</a>
                             <ul class="nav-dropdown">
-                                <li><a href="des_beaches.html">Hikkaduwa</a></li>
-                                <li><a href="des_beaches.html">Unawatuna</a></li>
-                                <li><a href="des_beaches.html">Benthota</a></li>
-                                <li><a href="des_beaches.html">Kalkuda</a></li>
-                                <li><a href="des_beaches.html">Pasikuda</a></li>
-                                <li><a href="des_beaches.html">Arugambay</a></li>
-                                <li><a href="des_beaches.html">Kalpitiya</a></li>
+                                <li><a href="des_beaches.html#hikkaduwa">Hikkaduwa</a></li>
+                                <li><a href="des_beaches.html#unawatuna">Unawatuna</a></li>
+                                <li><a href="des_beaches.html#bentota">Benthota</a></li>
+                                <li><a href="des_beaches.html#kalkudah">Kalkuda</a></li>
+                                <li><a href="des_beaches.html#pasikudah">Pasikuda</a></li>
+                                <li><a href="des_beaches.html#arugambay">Arugambay</a></li>
+                                <li><a href="des_beaches.html#kalpitiya">Kalpitiya</a></li>
                             </ul>
                         </li>
 
