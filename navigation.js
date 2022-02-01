@@ -3,7 +3,7 @@ document.write(`
     <nav id="navigation1" class="navigation">
 
         <div class="nav-header">
-            <a class="nav-logo" href="index2.html">
+            <a class="nav-logo" href="index.html">
                 <img src="img/master/logo.png" alt="logo">
             </a>
             <div class="nav-toggle"></div>
@@ -11,7 +11,7 @@ document.write(`
 
         <div class="nav-menus-wrapper">
             <ul class="nav-menu align-to-right">
-                <li><a href="index2.html">HOME</a>
+                <li><a href="index.html">HOME</a>
                 </li>
                 <li><a href="#">ABOUT US</a>
                     <ul class="nav-dropdown">
