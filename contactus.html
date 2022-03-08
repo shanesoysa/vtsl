@@ -47,14 +47,11 @@
 				<div class="top-nav">
 					<div class="section">
 						<div class="left-nav">
-						  <div class="location-top"><p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; support@merit.com</p></div>
-						  <div class="location-top"><p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;  212-869-3323</p></div>
+						  <div class="location-top"><p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; vtsl@vishvatourssrilanka.com</p></div>
+						  <div class="location-top"><p><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;  +(94) 72 405 60 12</p></div>
 						</div>
 						<div class="right-nav">
-						  <div class="social-top"><p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p></div>
-						  <div class="social-top"><p><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></p></div>
-						  <div class="social-top"><p><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></p></div>
-						  <div class="social-top last-icon"><p><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></p></div>
+<script src="socialmedia.js"></script>
 						</div>
 					</div>
 				</div>
@@ -81,34 +78,34 @@
 		<div class="main">
 			<div class="section">
 				<div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <div class="contact-box">
                       <div class="contact-box-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                       <h3>Address</h3>
-                       <p>8273 NW 59th ST Miami, Florida, 33197 United States</p>
+                       <p>No.159,Seeduwa Village,Seeduwa</p>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <div class="contact-box">
                       <div class="contact-box-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                       <h3>Phone</h3>
-                       <p>+1-212-869-3323</p>
+                       <p>+(94) 72 405 60 12</p>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <div class="contact-box">
                       <div class="contact-box-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                       <h3>Email</h3>
-                       <p>support@merit.com</p>
+                       <p>vtsl@vishvatourssrilanka.com</p>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <!-- <div class="col-md-3">
                     <div class="contact-box">
                       <div class="contact-box-icon"><i class="fa fa-fax" aria-hidden="true"></i></div>
                       <h3>Fax</h3>
                        <p>+1-212-869-3344</p>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
 			</div>
 		</div>
@@ -118,7 +115,7 @@
 				<div class="row">
                   <div class="col-md-7">
                     <div class="contact-left-2">
-                        <form id="contact-form" method="post" action="http://quickdevs.com/templates/merit/contact.php">
+                        <form id="contact-form" method="post" action="php/mail_contact.php">
                             <div class="messages"></div>
                             <div class="controls">
                                 <div class="row">
@@ -136,20 +133,39 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
+                                            <select id="tour_package" name="tour_package"  class="form-control customize" required>
+                                                <option value="">Please Select Tour Package</option>
+                                                <option value="Day Tour">Day Tour</option>
+                                                <option disabled>---Round Tours---</option>
+                                                <option value="4 NIGHTS & 5 DAYS TOUR">4 NIGHTS & 5 DAYS TOUR</option>
+                                                <option value="5 NIGHTS & 6 DAYS TOUR">5 NIGHTS & 6 DAYS TOUR</option>
+                                                <option value="7 NIGHTS & 8 DAYS TOUR">7 NIGHTS & 8 DAYS TOUR</option>
+                                                <option value="8 NIGHTS & 9 DAYS TOUR">8 NIGHTS & 9 DAYS TOUR</option>
+                                                <option value="11 NIGHTS & 12 DAYS TOUR">11 NIGHTS & 12 DAYS TOUR</option>
+                                                <option value="13 NIGHTS & 14 DAYS TOUR">13 NIGHTS & 14 DAYS TOUR</option>
+                                                <option value="15 NIGHTS & 16 DAYS TOUR">15 NIGHTS & 16 DAYS TOUR</option>
+                                                <option value="28 NIGHTS & 29 DAYS TOUR">28 NIGHTS & 29 DAYS TOUR</option>
+                                                <option value="NATURE & WILDLIFE 7 NIGHTS & 8 DAYS TOUR">NATURE & WILDLIFE 7 NIGHTS & 8 DAYS TOUR</option>
+                                            </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
                                             <input id="form_phone" type="tel" name="phone" class="form-control customize" placeholder="Please enter your phone">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea id="form_message" name="message" class="form-control customize" placeholder="Your message" rows="9" required="required" data-error="Please,leave us a message."></textarea>
+                                            <textarea id="form_message" name="message" class="form-control customize" placeholder="Your message" rows="9" required="required" data-error="Message."></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p><input type="submit" class="btn btn-contact" value="Send message"></p>
+                                        <p><input id="btn_submit" type="submit" class="btn btn-contact" value="Send message"></p>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +177,7 @@
                         <div class="inner-time-info">
                             <div class="clock"><img src="img/master/clock-3.png" alt=""></div>
                             <h6>Working hours</h6>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            <!-- <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p> -->
                         </div>
                         <div class="span-schedule">
                             <ul class="list-group">
@@ -200,8 +216,43 @@
 	<script src="js/navigation.js"></script>
 	<script src="js/megamenu.js"></script>
     <script src="js/loader.js"></script>
-    
+    <script src="sweetalert/sweetalert.js"></script>
 
+    
+<script>
+
+$('#contact-form').on('submit', function(e){
+    e.preventDefault();
+    let form_action = $(this).prop('action');
+    let form_data = $(this).serializeArray();
+    $.ajax({
+    url: 'php/mail_contact.php',
+    data: form_data,
+    method: 'post',
+    beforeSend: function() {
+        $('#btn_submit').prop('disabled',true);
+        $('#btn_submit').text('sending...');
+    },
+    error: function(e) {
+        $('#btn_submit').prop('disabled',false);
+        $('#btn_submit').text('Send message');
+        swal("Email Not Sent", "Please try again!", "error");
+    },
+    success: function(r) {
+        if(r.result){
+            $('#btn_submit').prop('disabled',false);
+            $('#btn_submit').text('Send message');
+            swal("Email Sent", "We Will Get Back To You Soon!", "success");
+            $('#contact-form').trigger('reset');
+        }else{
+            $('#btn_submit').prop('disabled',false);
+            $('#btn_submit').text('Send message');
+            swal("Email Not Sent", "Please try again!", "error");
+        }
+    }
+    });
+});  
+</script>
 
 </body>
 
