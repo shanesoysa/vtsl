@@ -45,7 +45,6 @@ document.write(`
                             <ul class="nav-dropdown">
                                 <li><a href="des_popular_city.html#colombo">Colombo</a></li>
                                 <li><a href="des_popular_city.html#kitulgala">Kitulgala</a></li>
-                                <li><a href="des_popular_city.html#negombo">Negombo</a></li>
                                 <li><a href="des_popular_city.html#galle">Galle</a></li>
                                 <li><a href="des_popular_city.html#trincomalee">Trincomalee</a></li>
                                 <li><a href="des_popular_city.html#pinnawala">Pinnawala</a></li>
@@ -55,11 +54,13 @@ document.write(`
                         <li><a href="des_cultural.html">Cultural</a>
                             <ul class="nav-dropdown">
                                 <li><a href="des_cultural.html#anuradhapura">Anuradhapura</a></li>
+                                <li><a href="des_cultural.html#polonnaruwa">Polonnaruwa</a></li>
                                 <li><a href="des_cultural.html#mihinthale">Mihinthale</a></li>
                                 <li><a href="des_cultural.html#dambulla">Dambulla</a></li>
                                 <li><a href="des_cultural.html#sigiriya">Sigiriya</a></li>
                                 <li><a href="des_cultural.html#kandy">Kandy</a></li>
                                 <li><a href="des_cultural.html#yapahuwa">Yapahuwa</a></li>
+                                
                             </ul>
                         </li>
                         <li><a href="des_hill_country.html">Hill Country</a>
