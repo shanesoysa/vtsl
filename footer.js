@@ -36,9 +36,7 @@ document.write(`
                 <div class="col-md-5 right-column">
                     <div class="footer-logo pull-right"><img src="img/master/logo.png" alt=""></div>
                     <div class="about-footer  pull-right">
-                        <p style="text-align: right;">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi.</p>
+                        <p style="text-align: right;">Discover the real Sri Lanka with VTSL Vishva Tour Sri Lanka specializing in tailor-made tours and excursions. Founded by a team of well experienced professionals.</p>
                     </div>
                     <div class="social-footer  pull-right">
                         <h6 style="text-align: right;">Follow Us</h6>
@@ -59,7 +57,9 @@ document.write(`
             </div>
             <hr class="line-footer">
             <div class="bottom-footer">
-               
+            <div class="left-footer">
+                <p> Copyright © 2022 Designed by <a href="https://hopeandcode.com/" target="_blank" style="color:#00aaff;">Hope and Code</a>. All rights reserved.</p>
+            </div>
             </div>
         </div>
     </div>
