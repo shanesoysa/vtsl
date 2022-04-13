@@ -15,7 +15,6 @@ document.write(`
                         <div class="categories-list-2">
                             <div class="categoties-items"><a href="">About Us</a></div>
                             <div class="categoties-items"><a href="">Contact Us</a></div>
-
                         </div>
                     </div>
                 </div>
